@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: blue; 
+}
+
+[class=display-1] {
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+	background-color: purple;
+}
+
+[class=box] {
+	background-color: white;
+	height: 300px;
+	width: 300px;
+	border-radius: 10px
+}
+
+div p {
+	text-align: center;
+	padding-top: 100px;
+}
