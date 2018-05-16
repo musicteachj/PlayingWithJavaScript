@@ -1,8 +1,17 @@
-console.log('Hello World!');
-
 var name = prompt('What is your name?');
-var box = prompt('Which number box?');
+var box = prompt('Which number box? (1-3)');
 
-console.log(name);
+switch (box) {
+	case "1":
+	box = 1;
+	document.getElementById('one').textContent = name;
+	break;
 
-document.getElementById('one').innerHTML = name;
+	case "2":
+	document.getElementById('two').textContent = name;
+	break;
+
+	case "3":
+	document.getElementById('three').textContent = name;
+	break;
+}
