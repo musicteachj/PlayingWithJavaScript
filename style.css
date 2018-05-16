@@ -7,10 +7,14 @@ html {
 	position: relative;
 	height: 100%;
 	width: 100%;
+	background-image: url('back1.jpg');
+	background-size: cover;
+	background-repeat: none;
 }
 
 body {
-	background-color: blue; 
+	background: none !important;
+	color: white; 
 }
 
 #buttonDiv {
@@ -24,12 +28,12 @@ body {
 }
 
 .jumbotron {
-	
+	background: none !important;
 }
 
 .container {
 	width: 100%;
-	background-color: purple;
+	background-color: none;
 	
 }
 
@@ -37,7 +41,8 @@ body {
 	background-color: white;
 	height: 300px;
 	width: 300px;
-	border-radius: 10px
+	border-radius: 10px;
+	color: black;
 }
 
 div p {
