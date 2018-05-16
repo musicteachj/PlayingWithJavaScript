@@ -13,13 +13,24 @@ body {
 	background-color: blue; 
 }
 
-[class=display-1] {
+#buttonDiv {
 	text-align: center;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+[class=display-1] , .jumbotron {
+	text-align: center;
+}
+
+.jumbotron {
+	
 }
 
 .container {
 	width: 100%;
 	background-color: purple;
+	
 }
 
 #box1, #box2, #box3 {
@@ -39,4 +50,8 @@ div p {
 	height: 300px;
 	width: 300px;
 	border-radius: 10px
+}
+
+.hidden {
+	display: none;
 }
