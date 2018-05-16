@@ -22,7 +22,7 @@ body {
 	background-color: purple;
 }
 
-[class=box] {
+#box1, #box2, #box3 {
 	background-color: white;
 	height: 300px;
 	width: 300px;
@@ -32,4 +32,11 @@ body {
 div p {
 	text-align: center;
 	padding-top: 100px;
+}
+
+.new {
+	background-color: red !important;
+	height: 300px;
+	width: 300px;
+	border-radius: 10px
 }

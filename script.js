@@ -15,3 +15,11 @@ switch (box) {
 	document.getElementById('three').textContent = name;
 	break;
 }
+
+document.getElementById("box1").className = "new";
+document.getElementById("box2").className = "new";
+document.getElementById("box3").className = "new";
+
+document.getElementById("box2").addEventListener("click", function(){
+	document.getElementById("box2").children[0].textContent = "Changed!";
+});
