@@ -1,3 +1,4 @@
+/* Selects All */
 * {
 	margin: 0;
 	padding: 0;
@@ -13,7 +14,7 @@ html {
 }
 
 body {
-	background: none !important;
+	background: none;
 	color: white; 
 }
 
@@ -23,12 +24,14 @@ body {
 	margin-top: 200px;
 }
 
-[class=display-1] , .jumbotron {
+/* Selects all elements with class="display-1" */
+[class=display-1] {
 	text-align: center;
 }
 
 .jumbotron {
-	background: none !important;
+	background: none;
+	text-align: center;
 }
 
 .container {
@@ -37,6 +40,7 @@ body {
 	
 }
 
+/* Grabs all boxes IDs */
 #box1, #box2, #box3 {
 	background-color: white;
 	height: 300px;
@@ -45,18 +49,22 @@ body {
 	color: black;
 }
 
+/* Grabs p elements inside the div */
 div p {
 	text-align: center;
 	padding-top: 100px;
 }
 
 .new {
+	/* Override previous inherited styles */
 	background-color: red !important;
+
 	height: 300px;
 	width: 300px;
 	border-radius: 10px
 }
 
+/* Hide Elements */
 .hidden {
 	display: none;
 }
